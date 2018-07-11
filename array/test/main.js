@@ -80,3 +80,16 @@ describe('dedupe', function() {
         })
     })
 })
+
+const arrayRange = require('../array-range');
+
+describe('arrayRange', function() {
+    let sample = [
+        {param: [1,5], result : [1,2,3,4,5]},
+    ]
+    sample.forEach(v => {
+        it(`arrayRange: [${v.param[0]}]`, function() {
+            expect(arrayRange(...v.param)).to.deep.equal(v.result);
+        })
+    })
+})
