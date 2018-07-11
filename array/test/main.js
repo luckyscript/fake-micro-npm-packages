@@ -61,3 +61,22 @@ describe('arrayFlatten', function() {
         })
     })
 })
+
+const dedupe = require('../dedupe');
+
+describe('dedupe', function() {
+    let sample = [
+        {param: [[1,2,3]], result : [1,2,3]},
+        {param: [[1,[2],3]], result : [1,[2],3]},
+        {param: [[1,[2,3]]], result : [1,[2,3]]},
+        {param: [[1,1,2]], result : [1,2]},
+        {param: [[{a: 1},{a: 1},{a: 2}]], result : [{a: 1},{a: 2}]},
+        {param: [[{a: 1, b: 2},{a: 1},{a: 2}]], result : [{a: 1, b: 2},{a: 1},{a: 2}]},
+        {param: [[{a: 1, b: 2},{a: 1},{a: 2}], (v) => v.a], result : [{a: 1, b: 2},{a: 2}]},
+    ]
+    sample.forEach(v => {
+        it(`dedupe: [${v.param[0]}]`, function() {
+            expect(dedupe(...v.param)).to.deep.equal(v.result);
+        })
+    })
+})
