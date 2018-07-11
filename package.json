@@ -1,0 +1,23 @@
+{
+  "name": "fake-micro-npm-packages",
+  "version": "1.0.0",
+  "description": "fack micro npm packages",
+  "main": "index.js",
+  "scripts": {
+    "test:array": "cd array && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckyscript/fake-micro-npm-packages.git"
+  },
+  "author": "luckyscript",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luckyscript/fake-micro-npm-packages/issues"
+  },
+  "homepage": "https://github.com/luckyscript/fake-micro-npm-packages#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
