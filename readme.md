@@ -31,9 +31,9 @@
 - [x] [array-range](https://github.com/mattdesl/array-range) - Creates a new array with given range.
 - [x] [arr-diff](https://github.com/jonschlinkert/arr-diff) - Returns an array with only the unique values from the first array, by excluding all values from additional arrays using strict equality for comparisons.
 - [x] [filled-array](https://github.com/sindresorhus/filled-array) - Returns an array filled with the specified input
-- [ ] [map-array](https://github.com/parro-it/map-array) - Map object keys and values into an array.
-- [ ] [in-array](https://github.com/jonschlinkert/in-array) - Return true if any of passed values exists in array - faster than using indexOf.
-- [ ] [unordered-array-remove](https://github.com/mafintosh/unordered-array-remove) - Efficiently remove an element from an unordered array without doing a splice.
+- [x] [map-array](https://github.com/parro-it/map-array) - Map object keys and values into an array.
+- [x] [in-array](https://github.com/jonschlinkert/in-array) - Return true if any of passed values exists in array - faster than using indexOf.
+- [x] [unordered-array-remove](https://github.com/mafintosh/unordered-array-remove) - Efficiently remove an element from an unordered array without doing a splice.
 - [ ] [array-swap](https://github.com/michaelzoidl/swap-array) - Swap position of two items in an array.
 - [ ] [mirrarray](https://github.com/johnwquarles/mirrarray) - Creates a keymirror object from an array of valid keys.
 - [ ] [group-array](https://github.com/doowb/group-array) - Group array of objects into lists.
