@@ -7,17 +7,17 @@
 
 ## Articles
 
-- [ ] [One-line node modules](https://github.com/sindresorhus/ama/issues/10)
-- [ ] [Build small single purpose modules](http://thenodeway.io/introduction/#build-small-single-purpose-modules)
-- [ ] [Module best practices](https://github.com/mattdesl/module-best-practices)
-- [ ] [Evaluating Packages Part 1 - Turn to community](http://bytearcher.com/articles/evaluating-packages-1-check-community/) 
-- [ ] [Evaluating Packages Part 2 - Review repository](http://bytearcher.com/articles/evaluating-packages-2-review-repository/)
-- [ ] [Small modules: it’s not quite that simple](https://medium.com/@Rich_Harris/small-modules-it-s-not-quite-that-simple-3ca532d65de4)
-- [ ] [Hyper Modular Packages: A Crazy Cult or a Reasonable Practice?](http://thefullstack.xyz/hyper-modular-packages-a-crazy-cult-or-a-reasonable-practice/)
-- [ ] [In Defense of Hyper Modular JavaScript](https://medium.freecodecamp.com/in-defense-of-hyper-modular-javascript-33934c79e113)
-- [ ] [Tiny npm package: Guidelines to create a Node.js module following the small package philosophy](http://g14n.info/2015/12/tiny-npm-package/)
-- [ ] [The cost of small modules](https://nolanlawson.com/2016/08/15/the-cost-of-small-modules/)
-- [ ] [Why I think "micro-packages" are a good thing.](http://codetunnel.io/why-i-think-micro-packages-are-a-good-thing/)
+[One-line node modules](https://github.com/sindresorhus/ama/issues/10)
+[Build small single purpose modules](http://thenodeway.io/introduction/#build-small-single-purpose-modules)
+[Module best practices](https://github.com/mattdesl/module-best-practices)
+[Evaluating Packages Part 1 - Turn to community](http://bytearcher.com/articles/evaluating-packages-1-check-community/) 
+[Evaluating Packages Part 2 - Review repository](http://bytearcher.com/articles/evaluating-packages-2-review-repository/)
+[Small modules: it’s not quite that simple](https://medium.com/@Rich_Harris/small-modules-it-s-not-quite-that-simple-3ca532d65de4)
+[Hyper Modular Packages: A Crazy Cult or a Reasonable Practice?](http://thefullstack.xyz/hyper-modular-packages-a-crazy-cult-or-a-reasonable-practice/)
+[In Defense of Hyper Modular JavaScript](https://medium.freecodecamp.com/in-defense-of-hyper-modular-javascript-33934c79e113)
+[Tiny npm package: Guidelines to create a Node.js module following the small package philosophy](http://g14n.info/2015/12/tiny-npm-package/)
+[The cost of small modules](https://nolanlawson.com/2016/08/15/the-cost-of-small-modules/)
+[Why I think "micro-packages" are a good thing.](http://codetunnel.io/why-i-think-micro-packages-are-a-good-thing/)
 
 ## Modules
 
@@ -28,9 +28,9 @@
 - [x] [array-last](https://github.com/jonschlinkert/array-last) - Return the last element in an array.
 - [x] [arr-flatten](https://github.com/jonschlinkert/arr-flatten) - Recursively flatten an array or arrays.
 - [x] [dedupe](https://github.com/seriousManual/dedupe) - Remove duplicates from an array.
-- [ ] [array-range](https://github.com/mattdesl/array-range) - Creates a new array with given range.
-- [ ] [arr-diff](https://github.com/jonschlinkert/arr-diff) - Returns an array with only the unique values from the first array, by excluding all values from additional arrays using strict equality for comparisons.
-- [ ] [filled-array](https://github.com/sindresorhus/filled-array) - Returns an array filled with the specified input
+- [x] [array-range](https://github.com/mattdesl/array-range) - Creates a new array with given range.
+- [x] [arr-diff](https://github.com/jonschlinkert/arr-diff) - Returns an array with only the unique values from the first array, by excluding all values from additional arrays using strict equality for comparisons.
+- [x] [filled-array](https://github.com/sindresorhus/filled-array) - Returns an array filled with the specified input
 - [ ] [map-array](https://github.com/parro-it/map-array) - Map object keys and values into an array.
 - [ ] [in-array](https://github.com/jonschlinkert/in-array) - Return true if any of passed values exists in array - faster than using indexOf.
 - [ ] [unordered-array-remove](https://github.com/mafintosh/unordered-array-remove) - Efficiently remove an element from an unordered array without doing a splice.
